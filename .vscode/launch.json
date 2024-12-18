@@ -5,11 +5,21 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "Python Debugger: Current File",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal"
+    },
+    {
       "name": "ET: Debug Python (unittest)",
       "type": "debugpy",
       "request": "launch",
       "program": "-m",
-      "args": ["unittest", "${file}"],
+      "args": [
+        "unittest",
+        "${file}"
+      ],
       "console": "integratedTerminal",
       "justMyCode": true
     }
