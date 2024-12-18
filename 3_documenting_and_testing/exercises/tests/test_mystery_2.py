@@ -2,9 +2,6 @@ import unittest
 
 from ..mystery_2 import mystery_2
 
-class TestMystery2(unittest.TestCase):
-    """ """
-import unittest
 
 class TestMystery2(unittest.TestCase):
     """test for a function that returns a length of an string or none"""
@@ -29,10 +26,10 @@ class TestMystery2(unittest.TestCase):
         """Test with a tuple."""
         self.assertEqual(mystery_2((6, 8)), 2)
 
-    def test_list_of_lists(self):
+    def test6_list_of_lists(self):
         """Test with a list of lists"""
         self.assertEqual(mystery_2([[5, 6], [9, 4], [6, 7]]), 3)
 
-    def test_string_with_spaces(self):
+    def test7_string_with_spaces(self):
         """Test with a string with spaces and mixed characters"""
         self.assertEqual(mystery_2("Hi  ,Iam Okay!"), 15)
