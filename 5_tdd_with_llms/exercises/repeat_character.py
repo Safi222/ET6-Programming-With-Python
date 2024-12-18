@@ -6,7 +6,5 @@ The function returns a string with each occurrence of the character repeated n t
 """
 
 
-
-
 def repeat_character():
     pass
